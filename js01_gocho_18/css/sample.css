@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    text-align: center;
+    font-size: 32px;
+}
+header{
+    color: #ee82ee;
+    /* border-bottom: 1px solid #ccc; */
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1518199266791-5375a83190b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    width: 1200px;
+    height: 150px;
+   
+}
+h1{
+    padding-top: 30px;
+}
+
+main{
+    border-bottom:1px solid #ccc;
+    background-color: #ffe6ea;
+    width: 1200px;
+    height: 600px;
+}
+footer{
+    background-color: #ffe6ea;
+    border-bottom:1px solid #ffe6ea;
+    text-align: center;
+}
+p{
+    /* font-size:100%; */
+    text-align: center;
+    /* border-bottom:1px solid #fff; */
+    /* height:200px; */
+    background-color: #ffe6ea;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #ee82ee;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    border: 2px solid #ee82ee;
+    background-color: #ffccd4;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 4px 0 #bbb;
+    opacity: 0.7;
+}
+
+#gu_btn:hover{
+    background: #b3f5f5;
+    color:#ffe6ea;
+    box-shadow: 0 4px 0 #ee82ee;
+    opacity: 0.7;
+
+}
+#cho_btn:hover{
+    background: #b3b3f5;
+    color:#ffe6ea;
+    box-shadow: 0 4px 0 #ee82ee;
+    opacity: 0.7;
+}
+#par_btn:hover{
+    background: #f5b3f5;
+    color:#ffe6ea;
+    box-shadow: 0 4px 0 #ee82ee;
+    opacity: 0.7;
+}
+
+
+div{
+    text-align: center;
+    background-color: #ffe6ea;
+}
+
+.result{
+    font-size: 64px;
+}
+
+.hischoice{
+padding-top: 30px;
+padding-bottom: 20px;
+}
+
